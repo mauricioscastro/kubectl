@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/kubectl
+module github.com/mauricioscastro/kubectl
 
 go 1.20
 
@@ -103,4 +103,5 @@ replace (
 	k8s.io/component-helpers => k8s.io/component-helpers v0.28.2
 	k8s.io/metrics => k8s.io/metrics v0.28.2
 	k8s.io/cli-runtime v0.28.2 => github.com/mauricioscastro/cli-runtime v0.28.202
+	k8s.io/kubectl => github.com/mauricioscastro/kubectl v0.28.202
 )
