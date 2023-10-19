@@ -91,17 +91,18 @@ require (
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	k8s.io/kubectl v0.28.3
 	sigs.k8s.io/kustomize/api v0.13.5-0.20230601165947-6ce0bf390ce3 // indirect
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.28.2
 	k8s.io/apimachinery => k8s.io/apimachinery v0.28.2
+	k8s.io/cli-runtime v0.28.2 => github.com/mauricioscastro/cli-runtime v0.28.202
 	k8s.io/client-go => k8s.io/client-go v0.28.2
 	k8s.io/code-generator => k8s.io/code-generator v0.28.2
 	k8s.io/component-base => k8s.io/component-base v0.28.2
 	k8s.io/component-helpers => k8s.io/component-helpers v0.28.2
-	k8s.io/metrics => k8s.io/metrics v0.28.2
-	k8s.io/cli-runtime v0.28.2 => github.com/mauricioscastro/cli-runtime v0.28.202
 	k8s.io/kubectl => github.com/mauricioscastro/kubectl v0.28.202
+	k8s.io/metrics => k8s.io/metrics v0.28.2
 )
