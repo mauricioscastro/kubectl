@@ -103,6 +103,6 @@ replace (
 	k8s.io/code-generator => k8s.io/code-generator v0.28.2
 	k8s.io/component-base => k8s.io/component-base v0.28.2
 	k8s.io/component-helpers => k8s.io/component-helpers v0.28.2
-	k8s.io/kubectl => github.com/mauricioscastro/kubectl v0.28.202
+	k8s.io/kubectl => github.com/mauricioscastro/kubectl v0.28.210
 	k8s.io/metrics => k8s.io/metrics v0.28.2
 )
